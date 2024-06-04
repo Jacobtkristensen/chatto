@@ -12,7 +12,7 @@ export default function ChatHeader({ user, router}) {
       options={{
         title: '',
         headerLeft: () => (
-          <View className="flex-row items-center gap-4">
+          <View className="flex-row items-center gap-7">
             <Pressable onPress={() => router.back()}>
               <FontAwesome6 name="chevron-left" size={hp(3)} color="grey" />
             </Pressable>
